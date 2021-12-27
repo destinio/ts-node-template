@@ -1,12 +1,16 @@
 ## Node Template
 
+## Usage/Install
+
+`gh repo create <NEW_REPO_NAME> --template destinio/ts-node-template`
+
 ## Configs
 
 > TODO: Add Gist with the following
 
 ### .editorconfig
 
-```
+```js
 root = true
 
 [*]
@@ -20,7 +24,7 @@ trim_trailing_whitespace = true
 
 ### .prettierrc
 
-```
+```json
 {
   "arrowParens": "avoid",
   "bracketSpacing": true,
@@ -30,7 +34,6 @@ trim_trailing_whitespace = true
   "tabWidth": 2,
   "trailingComma": "es5"
 }
-
 ```
 
 ### tsconfig.json
